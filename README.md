@@ -4,6 +4,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/stats-preview-card-component-ry3JL-FE9)
-- Live Site URL: [live site URL](https://merhanmostafa47.github.io/Stats-preview-card-component/)
+
+- Live Site URL: [live site URL](https://magical-basbousa-f338fb.netlify.app/)
 
