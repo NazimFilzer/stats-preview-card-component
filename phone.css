@@ -6,6 +6,7 @@
     /* font-family: 'Inter', sans-serif; */
     /* font-family: 'Lexend Deca', sans-serif; */
 }
+
 main {
     background-color: hsl(233, 47%, 7%);
     min-height: 100vh;
@@ -27,7 +28,7 @@ main {
     /* overflow: hidden; */
 }
 
-aside{
+aside {
     min-width: 100%;
     /* height: 100%; */
     border-top-right-radius: 10px;
@@ -35,6 +36,7 @@ aside{
     background-color: hsl(277, 64%, 61%);
     position: relative;
 }
+
 img {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -42,7 +44,8 @@ img {
     min-height: 15rem;
     position: relative;
     mix-blend-mode: multiply;
-    
+    display: block;
+    filter: brightness(1);
 }
 
 .content {
@@ -70,6 +73,7 @@ h1 {
 .in {
     color: #AD5DD8;
 }
+
 .para {
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 15px;
@@ -82,7 +86,8 @@ h1 {
     padding-left: 20px;
     padding-right: 20px;
 }
-.stats{
+
+.stats {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,22 +100,115 @@ h1 {
     width: 90%;
 
 }
-.align{
+
+.align {
     text-align: center;
 }
-.companies{
+
+.companies {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.templates{
+
+.templates {
     margin-bottom: 20px;
 }
-.sta{
+
+.sta {
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 11px;
     font-weight: 400;
 }
 
-.attribution{
-    background-color: hsl(233, 47%, 7%) ;
+.attribution {
+    background-color: hsl(233, 47%, 7%);
+}
+
+@media only screen and (min-width:400px) {
+    main {
+        flex-direction: row;
+    }
+
+    .container {
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        padding-left: 30px;
+    }
+
+    aside {
+        min-width: 0;
+        min-height: 100%;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 0px;
+    }
+
+    img {
+        /* min-height: 100%; */
+        min-height: 29rem;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 0px;
+    }
+
+    h1 {
+        font-size: 44px;
+        text-align: left;
+        padding-top: 11px;
+        margin-top: 19px;
+    }
+
+    .content {
+        width: 51%;
+    }
+
+    .para {
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 18px;
+        font-family: 'Lexend Deca', sans-serif;
+        width: 88%;
+        text-align: left;
+        margin-bottom: 30px;
+        line-height: 2;
+        /* display: inline-block; */
+        padding-right: 103px;
+    }
+
+    .stats {
+        flex-direction: row;
+        justify-content: start;
+        display: flex;
+        font-family: 'Inter', sans-serif;
+        color: white;
+        font-size: 30px;
+        line-height: 1;
+        font-weight: 700;
+        margin-bottom: 24px;
+        width: 100%;
+    }
+
+    .align {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .companies {
+        margin-right: 70px;
+    }
+
+    .templates {
+        margin-right: 70px;
+        margin-bottom: 0;
+    }
+
+    .sta {
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+
+
 }
