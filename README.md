@@ -5,5 +5,5 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ### Links
 
 
-- Live Site URL: [live site URL](https://magical-basbousa-f338fb.netlify.app/)
+- Live Site URL: [live site URL](https://polite-marzipan-2cfb09.netlify.app/)
 
